@@ -1,0 +1,111 @@
+/* ------ General ------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #acacac;
+}
+
+.highlighted {
+  color: #00fff0;
+}
+
+section {
+  padding: 0px 10px;
+  height: 100vh;
+}
+
+section:not(#top) {
+  padding-top: 50px;
+}
+
+/* ------ Navbar ------ */
+
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 100;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #00fff0;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* ------ Top ------ */
+
+#top {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/background-top.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header-h1 {
+  margin: 10px 0px;
+  font-size: 40px;
+}
+
+.subHeader-h2 {
+  font-size: 30px;
+}
+
+/* ------ About ------ */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__header {
+  padding: 0px 10px;
+  transform: translateY(10px);
+  background-color: #000;
+}
+
+.aboutContent {
+  padding: 15px 15px;
+  text-align: center;
+  border: 1px solid #acacac;
+  font-size: 20px;
+  max-width: 500px;
+}
+
+/* ------ Projects ------ */
+
+#projects {
+  background-image: url("../images/aurora.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ------ Contact ------ */
+
+#contact {
+  background-image: url("../images/lake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
