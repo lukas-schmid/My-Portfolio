@@ -15,14 +15,14 @@ body {
   color: #00fff0;
 }
 
-section {
-  padding: 0px 10px;
-  height: 100vh;
-}
+// section {
+//   padding: 0px 10px;
+//   height: 100vh;
+// }
 
-section:not(#top) {
-  padding-top: 75px;
-}
+// section:not(#top) {
+//   padding-top: 75px;
+// }
 
 /* ------ Navbar ------ */
 
@@ -110,12 +110,19 @@ section:not(#top) {
 /* ------ Top ------ */
 
 #top {
-  display: flex;
-  align-items: center;
   background-image: url("../images/background-top.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  height: 100vh;
+}
+.topSection {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .header-h1 {
@@ -134,6 +141,9 @@ section:not(#top) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 75px;
+  padding: 0px 10px;
+  height: 100vh;
 }
 
 .about__header {
@@ -159,6 +169,63 @@ section:not(#top) {
   background-attachment: scroll;
 }
 
+.project {
+  display: flex;
+  max-width: 350px;
+  min-height: 232px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.projectSection {
+  padding-top: 65px;
+  height: 100%;
+  width: 100%;
+}
+
+#my4dx {
+  background-image: url("../images/4dx.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#foodOrganizer {
+  background-image: url("../images/food.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#shareTasks {
+  background-image: url("../images/tasks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#portfolio {
+  background-image: url("../images/portfolio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.project__content {
+  border: 1px solid #acacac;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* ------ Skills ------ */
+
+#skills {
+  height: 100vh;
+}
+
 /* ------ Contact ------ */
 
 #contact {
@@ -166,6 +233,13 @@ section:not(#top) {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  height: 100vh;
+}
+
+.contactSection {
+  padding-top: 65px;
+  height: 100%;
+  width: 100%;
 }
 
 /* ------ Media Queries ------ */

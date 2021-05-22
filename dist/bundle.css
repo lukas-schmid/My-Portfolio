@@ -15,15 +15,6 @@ body {
   color: #00fff0;
 }
 
-section {
-  padding: 0px 10px;
-  height: 100vh;
-}
-
-section:not(#top) {
-  padding-top: 75px;
-}
-
 /* ------ Navbar ------ */
 .navbar {
   display: -webkit-box;
@@ -148,6 +139,14 @@ section:not(#top) {
 
 /* ------ Top ------ */
 #top {
+  background-image: url(images/df1dacddfac5e47b8edb5c6495a7ea5f.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh;
+}
+
+.topSection {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -156,10 +155,10 @@ section:not(#top) {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(images/df1dacddfac5e47b8edb5c6495a7ea5f.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
+  padding: 0px 10px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .header-h1 {
@@ -190,6 +189,9 @@ section:not(#top) {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 75px;
+  padding: 0px 10px;
+  height: 100vh;
 }
 
 .about__header {
@@ -215,12 +217,79 @@ section:not(#top) {
   background-attachment: scroll;
 }
 
+.project {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 350px;
+  min-height: 232px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.projectSection {
+  padding-top: 65px;
+  height: 100%;
+  width: 100%;
+}
+
+#my4dx {
+  background-image: url(images/a1cf09e6a79abe622bd20b5ded084526.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#foodOrganizer {
+  background-image: url(images/adbe7b3300a27a09389efd957744a21a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#shareTasks {
+  background-image: url(images/41f17ea2b89deb637ab87881a05bdff2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#portfolio {
+  background-image: url(images/55fb6d4c9528fdd1619449ef9c0d66e1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.project__content {
+  border: 1px solid #acacac;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* ------ Skills ------ */
+#skills {
+  height: 100vh;
+}
+
 /* ------ Contact ------ */
 #contact {
   background-image: url(images/b33d5c267734c050212f34fc015b4939.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  height: 100vh;
+}
+
+.contactSection {
+  padding-top: 65px;
+  height: 100%;
+  width: 100%;
 }
 
 /* ------ Media Queries ------ */

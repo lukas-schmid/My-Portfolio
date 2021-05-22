@@ -2,9 +2,9 @@ import "../styles/styles.scss";
 
 window.onscroll = function () {
   showNavbar();
-  elementOpacity("#top");
-  elementOpacity("#projects");
-  elementOpacity("#contact");
+  elementOpacity(".topSection");
+  elementOpacity(".projectSection");
+  elementOpacity(".contactSection");
 };
 
 const showNavbar = () => {
@@ -19,8 +19,9 @@ const elementOpacity = (element) => {
   const position = document.querySelector(element).getBoundingClientRect();
   const scrolledFromTopInPercentage =
     (Math.abs(position.y) * 100) / position.height;
-  const opacityValue = (100 - scrolledFromTopInPercentage) / 100;
-  document.querySelector(element).style.opacity = opacityValue;
+  const opacityValue = 1 - (100 - scrolledFromTopInPercentage) / 100;
+  document.querySelector(element).style.backgroundColor =
+    "rgba(0,0,0," + opacityValue + ")";
 };
 
 function openMenu() {
