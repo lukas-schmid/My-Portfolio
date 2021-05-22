@@ -40,8 +40,8 @@ section:not(#top) {
           align-items: center;
   background-color: #333;
   position: fixed;
-  height: 75px;
-  top: -75px;
+  height: 65px;
+  top: -65px;
   width: 100%;
   -webkit-transition: top 0.3s;
   transition: top 0.3s;
