@@ -21,18 +21,37 @@ section {
 }
 
 section:not(#top) {
-  padding-top: 50px;
+  padding-top: 75px;
 }
 
 /* ------ Navbar ------ */
 
 .navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: #333;
   position: fixed;
-  top: -50px;
+  height: 75px;
+  top: -75px;
   width: 100%;
   transition: top 0.3s;
   z-index: 100;
+}
+
+.navbar__text {
+  display: none;
+  align-items: center;
+  font-size: 22px;
+  height: 75px;
+}
+.navbar__icon {
+  display: flex;
+  height: 75px;
+  width: 75px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
 }
 
 .navbar a {
@@ -121,5 +140,11 @@ section:not(#top) {
   }
   #contact {
     background-attachment: fixed;
+  }
+  .navbar__text {
+    display: flex;
+  }
+  .navbar__icon {
+    display: none;
   }
 }
