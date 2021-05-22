@@ -169,7 +169,7 @@ body {
 }
 
 /* ------ About ------ */
-#about {
+.about {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -208,66 +208,18 @@ body {
 }
 
 /* ------ Projects ------ */
-#projects {
+.projects {
   background-image: url(images/84212b462758ac0a516f86af9728b6f3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-}
-
-.project {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 350px;
-  min-height: 232px;
-  margin: 10px 10px;
-  padding: 10px 10px;
-  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  overflow: hidden;
-  text-align: center;
+  height: 100vh;
 }
 
 .projectSection {
   padding-top: 65px;
   height: 100%;
   width: 100%;
-}
-
-#my4dx {
-  background-image: url(images/a1cf09e6a79abe622bd20b5ded084526.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
-
-#foodOrganizer {
-  background-image: url(images/adbe7b3300a27a09389efd957744a21a.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
-
-#shareTasks {
-  background-image: url(images/41f17ea2b89deb637ab87881a05bdff2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
-
-#portfolio {
-  background-image: url(images/55fb6d4c9528fdd1619449ef9c0d66e1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
-
-.project__content {
-  border: 1px solid #acacac;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* ------ Skills ------ */

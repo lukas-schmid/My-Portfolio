@@ -143,7 +143,7 @@ body {
 
 /* ------ About ------ */
 
-#about {
+.about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,24 +169,25 @@ body {
 
 /* ------ Projects ------ */
 
-#projects {
+.projects {
   background-image: url("../images/aurora.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  height: 100vh;
 }
 
-.project {
-  display: flex;
-  max-width: 350px;
-  min-height: 232px;
-  margin: 10px 10px;
-  padding: 10px 10px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  overflow: hidden;
-  text-align: center;
-}
+// .project {
+//   display: flex;
+//   max-width: 350px;
+//   min-height: 232px;
+//   margin: 10px 10px;
+//   padding: 10px 10px;
+//   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+//   border-radius: 10px;
+//   overflow: hidden;
+//   text-align: center;
+// }
 
 .projectSection {
   padding-top: 65px;
@@ -194,38 +195,46 @@ body {
   width: 100%;
 }
 
-#my4dx {
-  background-image: url("../images/4dx.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
+// .projectSection__innerContainer {
+//   max-width: 700px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   display: grid;
+//   grid-template-columns: repeat(2, 1fr);
+// }
 
-#foodOrganizer {
-  background-image: url("../images/food.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
+// #my4dx {
+//   background-image: url("../images/4dx.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: scroll;
+// }
 
-#shareTasks {
-  background-image: url("../images/tasks.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
+// #foodOrganizer {
+//   background-image: url("../images/food.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: scroll;
+// }
 
-#portfolio {
-  background-image: url("../images/portfolio.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
+// #shareTasks {
+//   background-image: url("../images/tasks.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: scroll;
+// }
 
-.project__content {
-  border: 1px solid #acacac;
-  background-color: rgba(0, 0, 0, 0.3);
-}
+// #portfolio {
+//   background-image: url("../images/portfolio.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: scroll;
+// }
+
+// .project__content {
+//   border: 1px solid #acacac;
+//   background-color: rgba(0, 0, 0, 0.3);
+// }
 
 /* ------ Skills ------ */
 
