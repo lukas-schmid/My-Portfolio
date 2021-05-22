@@ -62,7 +62,7 @@ section:not(#top) {
   background-image: url(images/df1dacddfac5e47b8edb5c6495a7ea5f.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .header-h1 {
@@ -115,7 +115,7 @@ section:not(#top) {
   background-image: url(images/84212b462758ac0a516f86af9728b6f3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 /* ------ Contact ------ */
@@ -123,5 +123,20 @@ section:not(#top) {
   background-image: url(images/b33d5c267734c050212f34fc015b4939.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
+}
+
+/* ------ Media Queries ------ */
+@media screen and (min-width: 990px) {
+  #top {
+    background-attachment: fixed;
+  }
+
+  #projects {
+    background-attachment: fixed;
+  }
+
+  #contact {
+    background-attachment: fixed;
+  }
 }
