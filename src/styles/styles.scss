@@ -54,13 +54,20 @@ section:not(#top) {
 #top {
   display: flex;
   align-items: center;
-  background-image: url("../images/background-top.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-attachment: fixed;
+  // background-image: url("../images/background-top.JPG");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-attachment: fixed;
+}
+
+#top-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
 }
 
 .header-h1 {
