@@ -22,3 +22,24 @@ const elementOpacity = (element) => {
   const opacityValue = (100 - scrolledFromTopInPercentage) / 100;
   document.querySelector(element).style.opacity = opacityValue;
 };
+
+function openMenu() {
+  document.querySelector(".navbar__icon").addEventListener("click", () => {
+    document.querySelector(".sidebarNav").style.transform = "translateX(0%)";
+  });
+}
+
+function closeMenu() {
+  document.querySelector(".sidebarNav__close").addEventListener("click", () => {
+    document.querySelector(".sidebarNav").style.transform = "translateX(100%)";
+  });
+  document.querySelectorAll(".menu-link").forEach((item) => {
+    item.addEventListener("click", (event) => {
+      document.querySelector(".sidebarNav").style.transform =
+        "translateX(100%)";
+    });
+  });
+}
+
+openMenu();
+closeMenu();
