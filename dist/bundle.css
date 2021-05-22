@@ -59,17 +59,10 @@ section:not(#top) {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#top-img {
-  width: 100vw;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -10;
+  background-image: url(images/df1dacddfac5e47b8edb5c6495a7ea5f.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header-h1 {
@@ -122,7 +115,7 @@ section:not(#top) {
   background-image: url(images/84212b462758ac0a516f86af9728b6f3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 /* ------ Contact ------ */

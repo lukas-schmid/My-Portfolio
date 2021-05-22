@@ -54,20 +54,10 @@ section:not(#top) {
 #top {
   display: flex;
   align-items: center;
-  // background-image: url("../images/background-top.JPG");
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-attachment: fixed;
-}
-
-#top-img {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -10;
+  background-image: url("../images/background-top.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header-h1 {
@@ -108,7 +98,7 @@ section:not(#top) {
   background-image: url("../images/aurora.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 /* ------ Contact ------ */
