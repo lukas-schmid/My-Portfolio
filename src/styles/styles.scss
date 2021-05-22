@@ -193,6 +193,10 @@ body {
   padding-top: 65px;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 // .projectSection__innerContainer {
@@ -285,7 +289,7 @@ body {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  // margin: auto;
 }
 
 /* Hide the images by default */
@@ -330,9 +334,9 @@ body {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  color: #00fff0;
+  font-size: 20px;
+  padding: 10px 12px;
   width: 100%;
   text-align: center;
 }
@@ -343,6 +347,23 @@ body {
   margin-right: auto;
 }
 
+.project__text {
+  padding: 10px 13px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.project__links {
+  font-size: 37px;
+  text-align: center;
+}
+
+.project__links a {
+  font-size: 37px;
+  text-align: center;
+  color: #acacac;
+}
+
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -350,9 +371,15 @@ body {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  display: none;
 }
 
 /* The dots/bullets/indicators */
+
+.dotBox {
+  margin: 20px;
+}
+
 .dot {
   cursor: pointer;
   height: 15px;
