@@ -411,6 +411,7 @@ button {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0px 5px;
 }
 .link__box a {
   padding: 5px 5px;
@@ -632,8 +633,9 @@ button {
   font-size: 40px;
   color: #333;
 }
-.contact__links i {
+.contact__links a {
   padding: 10px 10px;
+  color: #333;
 }
 
 /* ------ Footer ------ */
