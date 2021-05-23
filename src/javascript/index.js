@@ -9,6 +9,8 @@ const handleNavbarOpacity = () => {
   if (window.scrollY <= 60) {
     const opacity = (window.scrollY * 100) / 60 / 100;
     navbar.style.backgroundColor = "rgba(228,0,0," + opacity + ")";
+  } else {
+    navbar.style.backgroundColor = "rgba(228,0,0,1)";
   }
 };
 
