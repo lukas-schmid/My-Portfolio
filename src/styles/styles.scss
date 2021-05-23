@@ -125,9 +125,39 @@ button {
 
 .home {
   height: 100vh;
-  width: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
+  background-color: #000;
+}
+
+.header {
+  margin: 0px 10px;
+  color: $secondaryTextColor;
+}
+
+.highlighted {
+  color: $thirdTextColor;
+  font-weight: 700;
+}
+
+.header__text {
+  margin: 5px 0px;
+  font-size: 23px;
+}
+
+.header__h1 {
+  margin: 5px 0px;
+  font-size: 42px;
+}
+
+.header__h2 {
+  margin: 5px 0px;
+  font-size: 30px;
+}
+
+.header__button {
+  margin: 5px 0px;
 }
 
 /* ------ Media Queries ------ */
