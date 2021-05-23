@@ -183,7 +183,7 @@ button {
 }
 
 .about-header {
-  margin: 30px 0px;
+  margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
   border-bottom: 5px solid $thirdTextColor;
@@ -192,7 +192,7 @@ button {
   color: $primaryTextColor;
 }
 
-.about-header__contentContainer {
+.about__contentContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -201,7 +201,7 @@ button {
   max-width: 1000px;
 }
 
-.about-header__contentContainer--image {
+.about__contentContainer--image {
   margin: 30px 15px;
   min-width: 300px;
   max-width: 400px;
@@ -209,7 +209,7 @@ button {
   height: 300px;
 }
 
-.about-header__contentContainer--text {
+.about__contentContainer--text {
   flex: 1;
   margin: 30px 15px;
   max-width: 650px;
@@ -218,6 +218,55 @@ button {
   & hr {
     margin-bottom: 12px;
   }
+}
+
+/* ------ Projects ------ */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-header {
+  margin: 30px 0px 20px 0px;
+  width: 200px;
+  padding: 10px 0px;
+  border-bottom: 5px solid $thirdTextColor;
+  font-weight: 700;
+  text-align: center;
+  color: $primaryTextColor;
+}
+
+.projects__contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+  max-width: 1000px;
+}
+
+.projects__text {
+  margin: 30px 15px;
+  max-width: 350px;
+  min-width: 300px;
+}
+
+.projects__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex: 1;
+  margin: 30px 15px;
+  min-width: 590px;
+  max-width: 650px;
+}
+
+.project {
+  max-width: 300px;
+  margin: 15px 15px;
+  padding: 15px 15px;
+  background-color: gray;
 }
 
 /* ------ Media Queries ------ */
