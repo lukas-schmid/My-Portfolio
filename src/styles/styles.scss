@@ -183,6 +183,7 @@ button {
   align-items: center;
   min-height: 100vh;
   justify-content: space-evenly;
+  padding: 60px 0px;
 }
 
 .about-header {
@@ -232,6 +233,7 @@ button {
   background-color: $thirdBgColor;
   min-height: 100vh;
   justify-content: space-evenly;
+  padding: 60px 0px;
 }
 
 .projects-header {
@@ -321,36 +323,41 @@ button {
   }
 }
 
-// .projects__contentContainer {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center;
-//   align-items: center;
-//   margin: 20px 10px;
-//   max-width: 1000px;
-// }
+/* ------ Career ------ */
 
-// .projects__text {
-//   margin: 30px 15px;
-//   max-width: 350px;
-//   min-width: 300px;
-// }
+.career-header {
+  margin: 30px 0px 20px 0px;
+  width: 200px;
+  padding: 10px 0px;
+  border-bottom: 5px solid $thirdTextColor;
+  font-weight: 700;
+  text-align: center;
+  color: $primaryTextColor;
+}
 
-// .projects__box {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   flex: 1;
-//   margin: 30px 15px;
-//   min-width: 590px;
-//   max-width: 650px;
-// }
+/* ------ Skills ------ */
 
-// .project {
-//   min-width: 300px;
-//   margin: 15px 15px;
-//   padding: 15px 15px;
-//   background-color: gray;
-// }
+.skills-header {
+  margin: 30px 0px 20px 0px;
+  width: 200px;
+  padding: 10px 0px;
+  border-bottom: 5px solid $thirdTextColor;
+  font-weight: 700;
+  text-align: center;
+  color: $primaryTextColor;
+}
+
+/* ------ Contact ------ */
+
+.contact-header {
+  margin: 30px 0px 20px 0px;
+  width: 200px;
+  padding: 10px 0px;
+  border-bottom: 5px solid $thirdTextColor;
+  font-weight: 700;
+  text-align: center;
+  color: $primaryTextColor;
+}
 
 /* ------ Media Queries ------ */
 
