@@ -276,7 +276,7 @@ button {
   max-width: 650px;
   min-width: 300px;
 }
-.about__contentContainer--text hr {
+.about__contentContainer--text h3 {
   margin-bottom: 12px;
 }
 
