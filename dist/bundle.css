@@ -190,7 +190,20 @@ button {
 }
 
 .header__button {
-  margin: 5px 0px;
+  margin: 18px 0px;
+  width: 117px;
+  height: 45px;
+  border: none;
+  border-radius: 3px;
+  background-color: #e40000;
+  font-size: 17px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+}
+.header__button:hover {
+  background: none;
+  border: 2px solid #e40000;
+  color: #e40000;
 }
 
 /* ------ Media Queries ------ */
