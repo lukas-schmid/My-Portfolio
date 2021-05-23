@@ -221,6 +221,11 @@ button {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 100vh;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .about-header {
@@ -290,6 +295,11 @@ button {
       -ms-flex-align: center;
           align-items: center;
   background-color: #e6e6e6;
+  min-height: 100vh;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .projects-header {
@@ -320,7 +330,7 @@ button {
           align-items: center;
 }
 
-.projects__text .projects__text {
+.projects__text {
   padding: 15px 15px;
   text-align: center;
   max-width: 450px;
@@ -370,6 +380,7 @@ button {
 
 .project__text {
   margin: 5px 0px;
+  text-align: center;
 }
 
 .project__header {
@@ -419,6 +430,10 @@ button {
 
   .navbar__icon {
     display: none;
+  }
+
+  .header {
+    margin: 0px 40px;
   }
 
   .projects__box {
