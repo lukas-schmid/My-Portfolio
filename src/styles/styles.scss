@@ -129,7 +129,11 @@ button {
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: #000;
+  //background-color: #000;
+  background-image: url("../images/top-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .header {
