@@ -399,11 +399,95 @@ button {
   width: 100px;
   height: 100px;
   margin: 5px 5px;
-  background-color: gray;
+  // background-color: gray;
 }
 
 .skill__name {
   margin: 5px 0px;
+}
+
+#html {
+  background-image: url("../images/html.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#css {
+  background-image: url("../images/css.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#js {
+  background-image: url("../images/js.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#react {
+  background-image: url("../images/react.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#node {
+  background-image: url("../images/node.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#express {
+  background-image: url("../images/express.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#typescript {
+  background-image: url("../images/typescript.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#graphql {
+  background-image: url("../images/graphql.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#mongodb {
+  background-image: url("../images/mongodb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#postgresql {
+  background-image: url("../images/postgresql.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#firebase {
+  background-image: url("../images/firebase.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sass {
+  background-image: url("../images/sass.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* ------ Contact ------ */

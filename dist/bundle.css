@@ -538,11 +538,94 @@ button {
   width: 100px;
   height: 100px;
   margin: 5px 5px;
-  background-color: gray;
 }
 
 .skill__name {
   margin: 5px 0px;
+}
+
+#html {
+  background-image: url(images/e4e5ff039fadc101090460da1b5993d1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#css {
+  background-image: url(images/d01c597d62bffab03bc5acfd55c915c9.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#js {
+  background-image: url(images/2dfbe9f04167c272b2d5eaa222b36570.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#react {
+  background-image: url(images/b600c104afc1909d9cc3d8857255b5a4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#node {
+  background-image: url(images/bdbbfac98ed7d9e3f264bc9030610eee.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#express {
+  background-image: url(images/ab654f610e26bfc11d76ecc7b36e165c.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#typescript {
+  background-image: url(images/3531786649bfc0ef7674556adf1cc9e3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#graphql {
+  background-image: url(images/1e195e8ff5e93c14b22b3a9bccc37384.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#mongodb {
+  background-image: url(images/8a2bf832c8a42e9a474babee72bae501.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#postgresql {
+  background-image: url(images/8e5c07ce02622255264f08fdc66d2203.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#firebase {
+  background-image: url(images/26dfa7a850dd35fe722a070479b80559.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sass {
+  background-image: url(images/3fae177df8991084b4e2e42f8d02d2cc.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* ------ Contact ------ */
