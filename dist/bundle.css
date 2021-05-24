@@ -120,6 +120,8 @@ button {
 }
 .navbar__mobile--close:hover {
   color: #e40000;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .navbar__mobile--links {
@@ -205,9 +207,11 @@ button {
   text-shadow: 1px 1px 1px #333;
 }
 .header__button:hover {
-  background: none;
+  background-color: transparent;
   border: 2px solid #e40000;
   color: #e40000;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /* ------ About ------ */
@@ -360,6 +364,8 @@ button {
   background: none;
   border: 2px solid #e40000;
   color: #e40000;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .project {
@@ -715,6 +721,8 @@ button {
   background: none;
   border: 2px solid #e40000;
   color: #e40000;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .contact__links {
