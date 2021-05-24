@@ -33,6 +33,7 @@ button {
   align-items: center;
   padding: 0px 20px;
   background-color: rgba(228, 0, 0, 0);
+  z-index: 100;
 }
 
 .navbar__header {
@@ -193,7 +194,7 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid $thirdTextColor;
+  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -248,7 +249,7 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid $thirdTextColor;
+  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -347,7 +348,7 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid $thirdTextColor;
+  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -382,7 +383,7 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid $thirdTextColor;
+  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -525,7 +526,7 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid $thirdTextColor;
+  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -577,6 +578,20 @@ button {
   text-shadow: 1px 1px 1px $primaryTextColor;
 }
 
+/* ------ Animations ------ */
+
+hr {
+  width: 200px;
+  border: 3px solid $primaryBgColor;
+  border-radius: 10px;
+  margin: 12px auto;
+  transition: width 0.5s;
+}
+
+.show {
+  transition: opacity 0.5s, transform 0.5s;
+}
+
 /* ------ Media Queries ------ */
 
 @media screen and (min-width: 720px) {
@@ -586,6 +601,10 @@ button {
 
   .navbar__icon {
     display: none;
+  }
+
+  .home {
+    background-attachment: fixed;
   }
 
   .header {
