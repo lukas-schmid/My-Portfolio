@@ -209,8 +209,13 @@ button {
   margin: 30px 15px;
   min-width: 300px;
   max-width: 400px;
-  background-color: gray;
   height: 300px;
+  background-image: url("../images/me.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .about__contentContainer--text {
