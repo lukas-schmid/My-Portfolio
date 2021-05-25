@@ -33,6 +33,7 @@ button {
           align-items: center;
   padding: 0px 20px;
   background-color: rgba(228, 0, 0, 0);
+  z-index: 100;
 }
 
 .navbar__header {
@@ -119,6 +120,8 @@ button {
 }
 .navbar__mobile--close:hover {
   color: #e40000;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .navbar__mobile--links {
@@ -204,9 +207,11 @@ button {
   text-shadow: 1px 1px 1px #333;
 }
 .header__button:hover {
-  background: none;
+  background-color: transparent;
   border: 2px solid #e40000;
   color: #e40000;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /* ------ About ------ */
@@ -236,7 +241,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid #e40000;
   font-weight: 700;
   text-align: center;
   color: #333;
@@ -317,7 +321,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid #e40000;
   font-weight: 700;
   text-align: center;
   color: #333;
@@ -361,6 +364,8 @@ button {
   background: none;
   border: 2px solid #e40000;
   color: #e40000;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .project {
@@ -458,7 +463,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid #e40000;
   font-weight: 700;
   text-align: center;
   color: #333;
@@ -505,7 +509,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid #e40000;
   font-weight: 700;
   text-align: center;
   color: #333;
@@ -693,7 +696,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  border-bottom: 5px solid #e40000;
   font-weight: 700;
   text-align: center;
   color: #333;
@@ -719,6 +721,8 @@ button {
   background: none;
   border: 2px solid #e40000;
   color: #e40000;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .contact__links {
@@ -751,6 +755,23 @@ button {
   text-shadow: 1px 1px 1px #333;
 }
 
+/* ------ Animations ------ */
+hr {
+  width: 200px;
+  border: 3px solid #e40000;
+  border-radius: 10px;
+  margin: 12px auto;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.show {
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
 /* ------ Media Queries ------ */
 @media screen and (min-width: 720px) {
   .navbar__links {
@@ -762,6 +783,10 @@ button {
 
   .navbar__icon {
     display: none;
+  }
+
+  .home {
+    background-attachment: fixed;
   }
 
   .header {
