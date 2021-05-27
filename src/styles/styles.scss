@@ -196,7 +196,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -251,7 +250,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -299,6 +297,7 @@ button {
   background-color: gray;
   color: $secondaryTextColor;
   font-weight: 700;
+  border-radius: 4px;
 }
 
 .project__header {
@@ -351,7 +350,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -386,7 +384,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
@@ -411,7 +408,6 @@ button {
   width: 100px;
   height: 100px;
   margin: 5px 5px;
-  // background-color: gray;
 }
 
 .skill__name {
@@ -529,7 +525,6 @@ button {
   margin: 30px 0px 20px 0px;
   width: 200px;
   padding: 10px 0px;
-  // border-bottom: 5px solid $thirdTextColor;
   font-weight: 700;
   text-align: center;
   color: $primaryTextColor;
