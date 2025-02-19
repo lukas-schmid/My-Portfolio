@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -38,7 +38,7 @@
       <ul class="navbar__links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <!-- <li><a href="#projects">Projects</a></li> -->
         <li><a href="#career">Career</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -82,171 +82,282 @@
         <article class="about__contentContainer">
           <div class="about__contentContainer--image show"></div>
           <div class="about__contentContainer--text show">
-            <h3>My Name is Lukas and I am a Software Developer</h3>
+            <h3>My Name is Lukas, and I am a Full Stack Developer</h3>
+            <p>
+              I'm a developer with 6+ years of experience in web development and
+              project management, specializing in Next.js, React, Node.js,
+              TypeScript, and modern frontend technologies. I have a strong
+              background in building dynamic, user-friendly, and
+              high-performance web applications with pixel-perfect designs.
+            </p>
+
             <p>
               Born and raised in Austria, I decided in 2018 to leave my old life
-              behind and move to Sweden to start something new. That was the
-              beginning where I found my passion in coding and web
-              development.<br /><br />I started learning everything on my own
-              and it immediately became my main hobby number one.<br /><br />With
-              my new skills and the desire to dive even deeper into Web
-              Development, I applied for a intense 3 month coding bootcamp to
-              bring my knowledge on a professional level.
+              behind and move to Sweden to start something new. That was when I
+              discovered my passion for coding and web development. What started
+              as a hobby quickly turned into a career, pushing me to
+              continuously learn and refine my skills. Since then, I've
+              dedicated myself to building high-quality digital solutions while
+              always striving for improvement.
             </p>
-          </div>
-        </article>
-      </section>
-      <section class="projects" id="projects">
-        <header class="projects-header">
-          <h2 class="projects-header__h2">Projects</h2>
-          <hr />
-        </header>
-        <article class="projects__contentContainer show">
-          <div class="projects__text">
+
+            <h4>What I Bring to the Table:</h4>
+            <ul class="about__contentContainer--list">
+              <li>
+                <strong>Frontend Expertise</strong> – Clean, responsive, and
+                interactive UI development with React, Next.js, and Tailwind
+                CSS.
+              </li>
+              <li>
+                <strong>Backend Proficiency</strong> – Scalable API development
+                with Node.js, PostgreSQL, and AWS.
+              </li>
+              <li>
+                <strong>Performance & Optimization</strong> – Fast-loading,
+                SEO-friendly applications built with modern best practices.
+              </li>
+              <li>
+                <strong>Clean & Maintainable Code</strong> – Following industry
+                standards to ensure long-term scalability.
+              </li>
+              <li>
+                <strong>Client-Centered Approach</strong> – Your satisfaction is
+                my priority from start to finish.
+              </li>
+            </ul>
+
             <p>
-              These are some projects I’ve made in my free time as well as
-              during my time at the 3 month coding bootcamp at School of applied
-              technology.<br /><br />Find more and follow me on Github.
+              I'm passionate about delivering high-quality solutions that meet
+              client needs while continuously improving my skills.
             </p>
-            <a href="https://github.com/lukas-schmid" target="_blank"
-              ><button><i class="fab fa-github"></i> Github</button></a
-            >
-          </div>
-          <div class="projects__box">
-            <article class="project">
-              <h3 class="project__header">My 4DX</h3>
-              <p class="project__text">
-                A business management tool to focus on the wildly importent
-                goal.
-              </p>
-              <div class="project__links">
-                <div class="link__box">
-                  <a
-                    href="https://github.com/lukas-schmid/my-4dx"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                  <span class="link__box--name">Github</span>
-                </div>
-                <div class="link__box">
-                  <a href="https://my-4dx.herokuapp.com/login" target="_blank"
-                    ><i class="fas fa-globe-americas"></i
-                  ></a>
-                  <span class="link__box--name">WWW</span>
-                </div>
-                <div class="link__box">
-                  <a
-                    href="https://www.youtube.com/watch?v=-uHWajweORA"
-                    target="_blank"
-                    ><i class="fas fa-video"></i
-                  ></a>
-                  <span class="link__box--name">Video</span>
-                </div>
-              </div>
-            </article>
-            <article class="project">
-              <h3 class="project__header">Food Organizer</h3>
-              <p class="project__text">
-                App to organize your fridge, shopping list and search for
-                matching recipes.
-              </p>
-              <div class="project__links">
-                <div class="link__box">
-                  <a
-                    href="https://github.com/lukas-schmid/salt-hackday-project"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                  <span class="link__box--name">Github</span>
-                </div>
-                <div class="link__box">
-                  <a
-                    href="https://user-images.githubusercontent.com/70095024/111065084-21bfd100-84b8-11eb-8494-0c80cbff434e.mp4"
-                    target="_blank"
-                    ><i class="fas fa-video"></i
-                  ></a>
-                  <span class="link__box--name">Video</span>
-                </div>
-              </div>
-            </article>
-            <article class="project">
-              <h3 class="project__header">To-Do App</h3>
-              <p class="project__text">
-                App where you can create groups of tasks and share with friends
-                or co-workers.
-              </p>
-              <div class="project__links">
-                <div class="link__box">
-                  <a
-                    href="https://github.com/lukas-schmid/Share-Your-Tasks-With-Others"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                  <span class="link__box--name">Github</span>
-                </div>
-                <div class="link__box">
-                  <a
-                    href="https://shareyourtaskswithothers.herokuapp.com"
-                    target="_blank"
-                    ><i class="fas fa-globe-americas"></i
-                  ></a>
-                  <span class="link__box--name">WWW</span>
-                </div>
-              </div>
-            </article>
-            <article class="project">
-              <h3 class="project__header">My Portfolio</h3>
-              <p class="project__text">
-                ...And of course this portfolio page right now. Built with HTML,
-                Sass, Js and Webpack.
-              </p>
-              <div class="project__links">
-                <div class="link__box">
-                  <a
-                    href="https://github.com/lukas-schmid/portfolio"
-                    target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                  <span class="link__box--name">Github</span>
-                </div>
-                <div class="link__box">
-                  <a href="https://lukas-schmid.netlify.app" target="_blank"
-                    ><i class="fas fa-globe-americas"></i
-                  ></a>
-                  <span class="link__box--name">WWW</span>
-                </div>
-              </div>
-            </article>
           </div>
         </article>
       </section>
+      <!-- <section class="projects" id="projects"> -->
+      <!--   <header class="projects-header"> -->
+      <!--     <h2 class="projects-header__h2">Projects</h2> -->
+      <!--     <hr /> -->
+      <!--   </header> -->
+      <!--   <article class="projects__contentContainer show"> -->
+      <!--     <div class="projects__text"> -->
+      <!--       <p> -->
+      <!--         These are some projects I’ve made in my free time as well as -->
+      <!--         during my time at the 3 month coding bootcamp at School of applied -->
+      <!--         technology.<br /><br />Find more and follow me on Github. -->
+      <!--       </p> -->
+      <!--       <a href="https://github.com/lukas-schmid" target="_blank" -->
+      <!--         ><button><i class="fab fa-github"></i> Github</button></a -->
+      <!--       > -->
+      <!--     </div> -->
+      <!--     <div class="projects__box"> -->
+      <!--       <article class="project"> -->
+      <!--         <h3 class="project__header">My 4DX</h3> -->
+      <!--         <p class="project__text"> -->
+      <!--           A business management tool to focus on the wildly importent -->
+      <!--           goal. -->
+      <!--         </p> -->
+      <!--         <div class="project__links"> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a -->
+      <!--               href="https://github.com/lukas-schmid/my-4dx" -->
+      <!--               target="_blank" -->
+      <!--               ><i class="fab fa-github"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">Github</span> -->
+      <!--           </div> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a href="https://my-4dx.herokuapp.com/login" target="_blank" -->
+      <!--               ><i class="fas fa-globe-americas"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">WWW</span> -->
+      <!--           </div> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a -->
+      <!--               href="https://www.youtube.com/watch?v=-uHWajweORA" -->
+      <!--               target="_blank" -->
+      <!--               ><i class="fas fa-video"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">Video</span> -->
+      <!--           </div> -->
+      <!--         </div> -->
+      <!--       </article> -->
+      <!--       <article class="project"> -->
+      <!--         <h3 class="project__header">Food Organizer</h3> -->
+      <!--         <p class="project__text"> -->
+      <!--           App to organize your fridge, shopping list and search for -->
+      <!--           matching recipes. -->
+      <!--         </p> -->
+      <!--         <div class="project__links"> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a -->
+      <!--               href="https://github.com/lukas-schmid/salt-hackday-project" -->
+      <!--               target="_blank" -->
+      <!--               ><i class="fab fa-github"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">Github</span> -->
+      <!--           </div> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a -->
+      <!--               href="https://user-images.githubusercontent.com/70095024/111065084-21bfd100-84b8-11eb-8494-0c80cbff434e.mp4" -->
+      <!--               target="_blank" -->
+      <!--               ><i class="fas fa-video"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">Video</span> -->
+      <!--           </div> -->
+      <!--         </div> -->
+      <!--       </article> -->
+      <!--       <article class="project"> -->
+      <!--         <h3 class="project__header">To-Do App</h3> -->
+      <!--         <p class="project__text"> -->
+      <!--           App where you can create groups of tasks and share with friends -->
+      <!--           or co-workers. -->
+      <!--         </p> -->
+      <!--         <div class="project__links"> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a -->
+      <!--               href="https://github.com/lukas-schmid/Share-Your-Tasks-With-Others" -->
+      <!--               target="_blank" -->
+      <!--               ><i class="fab fa-github"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">Github</span> -->
+      <!--           </div> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a -->
+      <!--               href="https://shareyourtaskswithothers.herokuapp.com" -->
+      <!--               target="_blank" -->
+      <!--               ><i class="fas fa-globe-americas"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">WWW</span> -->
+      <!--           </div> -->
+      <!--         </div> -->
+      <!--       </article> -->
+      <!--       <article class="project"> -->
+      <!--         <h3 class="project__header">My Portfolio</h3> -->
+      <!--         <p class="project__text"> -->
+      <!--           ...And of course this portfolio page right now. Built with HTML, -->
+      <!--           Sass, Js and Webpack. -->
+      <!--         </p> -->
+      <!--         <div class="project__links"> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a -->
+      <!--               href="https://github.com/lukas-schmid/portfolio" -->
+      <!--               target="_blank" -->
+      <!--               ><i class="fab fa-github"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">Github</span> -->
+      <!--           </div> -->
+      <!--           <div class="link__box"> -->
+      <!--             <a href="https://lukas-schmid.netlify.app" target="_blank" -->
+      <!--               ><i class="fas fa-globe-americas"></i -->
+      <!--             ></a> -->
+      <!--             <span class="link__box--name">WWW</span> -->
+      <!--           </div> -->
+      <!--         </div> -->
+      <!--       </article> -->
+      <!--     </div> -->
+      <!--   </article> -->
+      <!-- </section> -->
       <section class="career" id="career">
         <header class="career-header">
           <h2 class="career-header__h2">My Journey</h2>
           <hr />
         </header>
         <article class="career-step show">
-          <h3 class="career-step__year">Dec 2021 - Present</h3>
+          <h3 class="career-step__year">Jun 2021 - Present</h3>
           <h3 class="career-step__title">
-            Front-end Developer at DBT Capital AB
+            Full Stack Javascript Developer at DBT Capital AB
           </h3>
           <p class="career-step__text">
-            Working as a front-end developer on new features and improving functionalities
-            for internal use as well as external portals for our customers.
-            Tech Stack consists of Typescript, Next.js, React, NodeJS, PostgresQL ...
+            As a Full Stack Developer, I am responsible for developing and
+            maintaining internal systems and customer-specific applications
+            using Next.js, React, Node.js, PostgreSQL, and AWS. I focus on
+            creating scalable, secure, and high-performance solutions that
+            enhance both user experience and business efficiency.
           </p>
+          <h4 class="career-step__title">
+            Key Responsibilities & Achievements:
+          </h4>
+          <ul class="career-step__list">
+            <li>
+              Designed and implemented scalable and secure solutions across
+              frontend and backend systems.
+            </li>
+            <li>
+              Developed and maintained internal tools and client-facing
+              applications, ensuring reliability and efficiency.
+            </li>
+            <li>
+              Optimized performance and user experience through responsive
+              design, caching strategies, and API optimization.
+            </li>
+            <li>
+              Worked closely with the product team to align technical
+              development with business goals and user needs.
+            </li>
+            <li>
+              Implemented CI/CD pipelines and automated testing, improving
+              software stability and deployment processes.
+            </li>
+            <li>
+              Integrated external APIs and third-party services to expand
+              platform capabilities and enhance functionality.
+            </li>
+            <li>
+              Collaborated with designers and UX specialists to ensure a modern,
+              intuitive, and seamless user experience.
+            </li>
+            <li>
+              Actively contributed to code reviews, technical discussions, and
+              mentoring of junior developers to foster a strong development
+              culture.
+            </li>
+          </ul>
         </article>
         <article class="career-step show">
-          <h3 class="career-step__year">Jan 2021 - Dec 2021</h3>
+          <h3 class="career-step__year">Jan 2021 - May 2021</h3>
           <h3 class="career-step__title">
             Full Stack Javascript Developer at School of applied technology
           </h3>
           <p class="career-step__text">
-            Highly paced and very intense training program to become a full
-            stack javascript developer. From hobby coder into productive
-            full-stack developers. Program included: JavaScript, Node, React,
-            Express, HTML5, CSS3, MongoDB, PostgresQL, GraphQL, REST, TDD, Git,
-            Agile & mob-programming ...
+            Completed an intensive and fast-paced training program designed to
+            transition from a hobby coder to a productive full-stack JavaScript
+            developer. The program emphasized hands-on learning, real-world
+            projects, and industry best practices.
+          </p>
+
+          <h4 class="career-step__title">Key Competencies Gained:</h4>
+          <ul class="career-step__list">
+            <li>
+              Frontend Development – Built dynamic and responsive applications
+              using JavaScript, ES6+, React, and modern UI frameworks.
+            </li>
+            <li>
+              Backend Development – Developed RESTful APIs and backend services
+              with Node.js, Express, MongoDB, and PostgreSQL.
+            </li>
+            <li>
+              API Integration & Data Handling – Worked with GraphQL, REST APIs,
+              and optimized database queries.
+            </li>
+            <li>
+              Test-Driven Development (TDD) – Applied Jest, Mocha, and Chai to
+              ensure code reliability and maintainability.
+            </li>
+            <li>
+              Version Control & Collaboration – Gained proficiency in Git,
+              GitHub, and Bitbucket for efficient workflow management.
+            </li>
+            <li>
+              Agile & Mob Programming – Engaged in Agile methodologies, daily
+              stand-ups, pair programming, and mob programming to simulate
+              professional development environments.
+            </li>
+          </ul>
+
+          <p class="career-step__text">
+            This program provided a solid foundation in full-stack development,
+            problem-solving, and modern software engineering practices,
+            preparing me for real-world development challenges.
           </p>
         </article>
         <article class="career-step show">
@@ -255,10 +366,49 @@
             Technical Project Manager at Netigate
           </h3>
           <p class="career-step__text">
-            Created custom functions with JS, HTML and CSS, contact person for
-            all questions about API, project based solutions as well as
-            designing, planning and organizing custom pages.
+            As a Technical Project Manager, I was responsible for delivering
+            customized technical solutions using HTML, CSS, and
+            JavaScript/jQuery, while managing projects from concept to
+            execution. In addition to project management, I served as a
+            technical advisor, providing expert guidance on product
+            capabilities, APIs, and integrations to ensure optimal client
+            solutions.
           </p>
+
+          <h4 class="career-step__title">
+            Key Responsibilities & Achievements:
+          </h4>
+          <ul class="career-step__list">
+            <li>
+              Designed and prototyped custom landing pages to enhance user
+              engagement and meet specific client needs.
+            </li>
+            <li>
+              Customized and branded the product to align with each client's
+              visual identity, ensuring a seamless brand experience.
+            </li>
+            <li>
+              Developed and implemented customized technical solutions,
+              enhancing product functionality and ensuring seamless integration.
+            </li>
+            <li>
+              Provided in-depth technical consultation on REST APIs, system
+              capabilities, and feature enhancements.
+            </li>
+            <li>
+              Led cross-functional collaboration between clients, developers,
+              and stakeholders to align business objectives with technical
+              solutions.
+            </li>
+            <li>
+              Conducted customer product training and created documentation to
+              support platform adoption.
+            </li>
+            <li>
+              Delivered technical support and troubleshooting, resolving complex
+              client issues efficiently.
+            </li>
+          </ul>
         </article>
         <article class="career-step show">
           <h3 class="career-step__year">May 2018 - Oct 2019</h3>
@@ -266,10 +416,43 @@
             Technical Support Representative at Netigate
           </h3>
           <p class="career-step__text">
-            Provided customers with best service and solutions, helping with
-            HTML and CSS as well as detecting, investigating and reporting bugs
-            to the developers.
+            As a Customer Success Specialist, I was committed to delivering
+            top-tier service and technical support to our customers, ensuring
+            they had a seamless experience with our platform. My primary focus
+            was on the DACH market and international clients, where I provided
+            expert guidance and troubleshooting assistance.
           </p>
+
+          <h4 class="career-step__title">
+            Key Responsibilities & Achievements:
+          </h4>
+          <ul class="career-step__list">
+            <li>
+              Delivered technical support in JavaScript, HTML, and CSS, helping
+              customers troubleshoot and optimize their use of the platform.
+            </li>
+            <li>
+              Proactively identified, documented, and reported bugs to the
+              development team, ensuring continuous product improvements.
+            </li>
+            <li>
+              Guided users through the platform with clear and comprehensive
+              instructions, enhancing customer engagement and satisfaction.
+            </li>
+            <li>
+              Specialized in assisting enterprise clients in the DACH region,
+              providing tailored support to meet their specific needs.
+            </li>
+            <li>
+              Collaborated closely with internal teams, including development,
+              sales, and product management, to ensure a seamless customer
+              experience.
+            </li>
+            <li>
+              Developed user documentation and best practices, enabling
+              customers to maximize the value of the platform.
+            </li>
+          </ul>
         </article>
       </section>
       <section class="skills" id="skills">
